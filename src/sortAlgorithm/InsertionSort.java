@@ -1,3 +1,5 @@
+package sortAlgorithm;
+
 public class InsertionSort {
     public int[] practiceInsertion(int[] arr) {
         if (arr.length <= 0 || arr.length == 1) {
