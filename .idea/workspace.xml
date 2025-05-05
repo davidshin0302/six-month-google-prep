@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="practicing quick sort algorithm.">
-      <change afterPath="$PROJECT_DIR$/src/searchAlgorithm/BinarySearch.java" afterDir="false" />
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="practicing binarySearch algorithm.">
+      <change afterPath="$PROJECT_DIR$/src/searchAlgorithm/BreadthFirstSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortAlgorithm/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortAlgorithm/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortAlgorithm/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746462749940</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Moved Classes to Sort dir">
+      <option name="closed" value="true" />
+      <created>1746466028950</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746466028950</updated>
+    </task>
+    <task id="LOCAL-00006" summary="practicing binarySearch algorithm.">
+      <option name="closed" value="true" />
+      <created>1746466044747</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746466044747</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -126,6 +139,8 @@
     <MESSAGE value="first commit and praticing insertion sort." />
     <MESSAGE value="practicing merge sort algorithm." />
     <MESSAGE value="practicing quick sort algorithm." />
-    <option name="LAST_COMMIT_MESSAGE" value="practicing quick sort algorithm." />
+    <MESSAGE value="Moved Classes to Sort dir" />
+    <MESSAGE value="practicing binarySearch algorithm." />
+    <option name="LAST_COMMIT_MESSAGE" value="practicing binarySearch algorithm." />
   </component>
 </project>
