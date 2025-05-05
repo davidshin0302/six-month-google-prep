@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="first commit and praticing insertion sort.">
-      <change afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="practicing merge sort algorithm.">
+      <change afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -99,12 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1746039349676</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="practicing merge sort algorithm.">
+      <option name="closed" value="true" />
+      <created>1746212811813</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746212811813</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit." />
     <MESSAGE value="first commit and praticing insertion sort." />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit and praticing insertion sort." />
+    <MESSAGE value="practicing merge sort algorithm." />
+    <option name="LAST_COMMIT_MESSAGE" value="practicing merge sort algorithm." />
   </component>
 </project>
