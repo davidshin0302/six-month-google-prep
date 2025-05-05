@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="practicing binarySearch algorithm.">
-      <change afterPath="$PROJECT_DIR$/src/searchAlgorithm/BreadthFirstSearch.java" afterDir="false" />
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="practicing breadth-first-search algorithm.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746466044747</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="practicing breadth-first-search algorithm.">
+      <option name="closed" value="true" />
+      <created>1746472373165</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746472373165</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,6 +147,7 @@
     <MESSAGE value="practicing quick sort algorithm." />
     <MESSAGE value="Moved Classes to Sort dir" />
     <MESSAGE value="practicing binarySearch algorithm." />
-    <option name="LAST_COMMIT_MESSAGE" value="practicing binarySearch algorithm." />
+    <MESSAGE value="practicing breadth-first-search algorithm." />
+    <option name="LAST_COMMIT_MESSAGE" value="practicing breadth-first-search algorithm." />
   </component>
 </project>
