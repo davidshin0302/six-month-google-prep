@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="gitignore workspace xml">
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="practiced depth first search algo.">
+      <change afterPath="$PROJECT_DIR$/src/leetCodeChallenges/arrays/KthMissingPositiveNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/searchAlgorithm/BreadthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searchAlgorithm/BreadthFirstSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/searchAlgorithm/DepthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searchAlgorithm/DepthFirstSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746474669183</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="practiced depth first search algo.">
+      <option name="closed" value="true" />
+      <created>1746545801839</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746545801839</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,6 +175,7 @@
     <MESSAGE value="practicing breadth-first-search algorithm." />
     <MESSAGE value="working to study DFS." />
     <MESSAGE value="gitignore workspace xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore workspace xml" />
+    <MESSAGE value="practiced depth first search algo." />
+    <option name="LAST_COMMIT_MESSAGE" value="practiced depth first search algo." />
   </component>
 </project>
