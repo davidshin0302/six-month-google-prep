@@ -31,7 +31,7 @@ public class Main {
 
         System.out.println("================");
         int[] arr2 =  {2,3,4,7,11}; //k =5, output 9.
-        int[] arr3 = {1,2,3,4}; // k =2, output 6. Alt [2], k=1, output 1.
+        int[] arr3 = {1,2,3,4}; // k =2, output 6. Or alternatively test with [2], k=1, output 1.
         System.out.println(KthMissingPositiveNumber.findMissingPositiveNumber(arr2, 5));
     }
 }
