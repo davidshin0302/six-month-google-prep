@@ -1,3 +1,4 @@
+import leetCodeChallenges.arrays.GreatestCommonDivisor;
 import leetCodeChallenges.arrays.KthMissingPositiveNumber;
 import searchAlgorithm.BinarySearch;
 import searchAlgorithm.BreadthFirstSearch;
@@ -33,5 +34,10 @@ public class Main {
         int[] arr2 =  {2,3,4,7,11}; //k =5, output 9.
         int[] arr3 = {1,2,3,4}; // k =2, output 6. Or alternatively test with [2], k=1, output 1.
         System.out.println(KthMissingPositiveNumber.findMissingPositiveNumber(arr2, 5));
+
+        System.out.println("================");
+        int[] num = {7,7,2};
+        int output = GreatestCommonDivisor.findGCD(num);
+        System.out.println(output);
     }
 }
