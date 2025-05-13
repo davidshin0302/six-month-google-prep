@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="Working on GCD leetcode problem.">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeChallenges/arrays/FormableWordsFinder.java" afterDir="false" />
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="Solving Formable workds finder.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCodeChallenges/arrays/FormableWordsFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeChallenges/arrays/FormableWordsFinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -187,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746718262899</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Solving Formable workds finder.">
+      <option name="closed" value="true" />
+      <created>1747167860615</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1747167860615</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -204,17 +211,7 @@
     <MESSAGE value="Practicing leetcode challenge. Easy Level/Arrays." />
     <MESSAGE value="dummy commit" />
     <MESSAGE value="Working on GCD leetcode problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on GCD leetcode problem." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCodeChallenges/arrays/FormableWordsFinder.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Solving Formable workds finder." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solving Formable workds finder." />
   </component>
 </project>
