@@ -1,3 +1,4 @@
+import leetCodeChallenges.arrays.CapturesforRook;
 import leetCodeChallenges.arrays.FormableWordsFinder;
 import leetCodeChallenges.arrays.GreatestCommonDivisor;
 import leetCodeChallenges.arrays.KthMissingPositiveNumber;
@@ -42,9 +43,22 @@ public class Main {
 //        System.out.println(output);
 
         //words = ["cat","bt","hat","tree"], chars = "atach"
-        String[] words = {"hello","world","leetcode"};
-        String character = "welldonehoneyr";
+//        String[] words = {"hello","world","leetcode"};
+//        String character = "welldonehoneyr";
+//
+//        System.out.println(FormableWordsFinder.formableWordFinder(words,character));
 
-        System.out.println(FormableWordsFinder.formableWordFinder(words,character));
+        char[][] board = {
+                {'.', '.', '.', '.', '.', '.', '.', '.'},
+                {'.', '.', '.', 'p', '.', '.', '.', '.'},
+                {'.', '.', '.', 'R', '.', '.', '.', 'p'},
+                {'.', '.', '.', '.', '.', '.', '.', '.'},
+                {'.', '.', '.', '.', '.', '.', '.', '.'},
+                {'.', '.', '.', 'p', '.', '.', '.', '.'},
+                {'.', '.', '.', '.', '.', '.', '.', '.'},
+                {'.', '.', '.', '.', '.', '.', '.', '.'}
+        };
+
+        System.out.println(CapturesforRook.numRookCaptures(board));
     }
 }

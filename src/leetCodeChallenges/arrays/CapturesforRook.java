@@ -22,10 +22,11 @@ public class CapturesforRook {
         char pawn = 'p';
 
         while (current_row >= 0) {
-            if (board[current_row][rookColumn] == bishop) {
+            char position = board[current_row][rookColumn];
+            if (position == pawn) {
                 attack_count++;
                 break;
-            } else if (board[current_row][rookColumn] == pawn) {
+            } else if (position == bishop) {
                 break;
             } else {
                 current_row--;
