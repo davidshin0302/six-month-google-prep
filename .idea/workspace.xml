@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="Solved Captures For Rook Challenge.">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeChallenges/linkedList/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeChallenges/linkedList/RemoveDuplicatesSortedList.java" afterDir="false" />
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="working to solve Remove Duplicates Sorted List java.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCodeChallenges/linkedList/RemoveDuplicatesSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeChallenges/linkedList/RemoveDuplicatesSortedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747426437421</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="working to solve Remove Duplicates Sorted List java.">
+      <option name="closed" value="true" />
+      <created>1747427805052</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1747427805052</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -241,6 +247,7 @@
     <MESSAGE value="Solving CapturesForRook challenge." />
     <MESSAGE value="Trying debugging the output." />
     <MESSAGE value="Solved Captures For Rook Challenge." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved Captures For Rook Challenge." />
+    <MESSAGE value="working to solve Remove Duplicates Sorted List java." />
+    <option name="LAST_COMMIT_MESSAGE" value="working to solve Remove Duplicates Sorted List java." />
   </component>
 </project>
