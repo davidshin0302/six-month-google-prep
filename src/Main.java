@@ -2,6 +2,8 @@ import leetCodeChallenges.arrays.CapturesforRook;
 import leetCodeChallenges.arrays.FormableWordsFinder;
 import leetCodeChallenges.arrays.GreatestCommonDivisor;
 import leetCodeChallenges.arrays.KthMissingPositiveNumber;
+import leetCodeChallenges.linkedList.ListNode;
+import leetCodeChallenges.linkedList.RemoveDuplicatesSortedList;
 import searchAlgorithm.BinarySearch;
 import searchAlgorithm.BreadthFirstSearch;
 import searchAlgorithm.DepthFirstSearch;
@@ -55,5 +57,11 @@ public class Main {
 //                        '.', '.', '.', 'p', 'p', 'p', '.', '.'}, {'.', '.', '.', '.', '.', '.', '.', '.'}};
 //
 //        System.out.println(CapturesforRook.numRookCaptures(board));
+
+        ListNode head1 = new ListNode(1);
+        head1.next = new ListNode(1);
+        head1.next.next = new ListNode(2);
+
+        System.out.println(RemoveDuplicatesSortedList.deleteDuplicates(head1));
     }
 }
