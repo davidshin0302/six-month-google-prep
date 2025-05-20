@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="Solved Remove Duplicate Sorted List challenge.">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeChallenges/linkedList/MiddleOfTheLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCodeChallenges/linkedList/MiddleOfTheLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeChallenges/linkedList/MiddleOfTheLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,5 +250,16 @@
     <MESSAGE value="Solved Captures For Rook Challenge." />
     <MESSAGE value="Solved Remove Duplicate Sorted List challenge." />
     <option name="LAST_COMMIT_MESSAGE" value="Solved Remove Duplicate Sorted List challenge." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeChallenges/linkedList/MiddleOfTheLinkedList.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
