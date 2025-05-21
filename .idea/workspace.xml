@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="Solved find the merge two sorted lists in java.">
-      <change afterPath="$PROJECT_DIR$/src/stackQueueAlgorithm/MyArrayStack.java" afterDir="false" />
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="Working on implementing basic array stack.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stackQueueAlgorithm/MyArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackQueueAlgorithm/MyArrayStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +35,12 @@
     &quot;assignee&quot;: &quot;davidshin0302&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/davidshin0302/six-month-google-prep.git&quot;,
-    &quot;accountId&quot;: &quot;d5452dcd-2381-401d-a49a-dd0102f07505&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/davidshin0302/six-month-google-prep.git",
+    "accountId": "bdd7e44f-bf72-431a-9cae-6d9b0b79bb19"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -50,7 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -242,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747761817239</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Working on implementing basic array stack.">
+      <option name="closed" value="true" />
+      <created>1747773217586</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1747773217586</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -266,7 +275,8 @@
     <MESSAGE value="Solved Remove Duplicate Sorted List challenge." />
     <MESSAGE value="Solved find the middle of the linked list in java." />
     <MESSAGE value="Solved find the merge two sorted lists in java." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved find the merge two sorted lists in java." />
+    <MESSAGE value="Working on implementing basic array stack." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on implementing basic array stack." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

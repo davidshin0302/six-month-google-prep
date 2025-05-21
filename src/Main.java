@@ -11,6 +11,7 @@ import searchAlgorithm.BreadthFirstSearch;
 import searchAlgorithm.DepthFirstSearch;
 import sortAlgorithm.InsertionSort;
 import sortAlgorithm.QuickSort;
+import stackQueueAlgorithm.MyArrayStack;
 
 import java.util.Arrays;
 
@@ -70,13 +71,26 @@ public class Main {
 //        System.out.println(RemoveDuplicatesSortedList.deleteDuplicates(head1));
 //        System.out.println(MiddleOfTheLinkedList.middleNode(head1));
 
-        ListNode head1 = new ListNode(1);
-        head1.next = new ListNode(2);
-        head1.next.next = new ListNode(4);
-
-        ListNode head2 = new ListNode(3);
-        head2.next = new ListNode(4);
+//        ListNode head1 = new ListNode(1);
+//        head1.next = new ListNode(2);
+//        head1.next.next = new ListNode(4);
+//
+//        ListNode head2 = new ListNode(3);
+//        head2.next = new ListNode(4);
 //        head2.next.next = new ListNode(4);
-        System.out.println(MergeTwoSortedLists.mergeList(head1, head2));
+//        System.out.println(MergeTwoSortedLists.mergeList(head1, head2));
+
+        MyArrayStack myArrayStack = new MyArrayStack<>(3);
+
+        myArrayStack.push(1);
+        myArrayStack.push(2);
+        myArrayStack.push(3);
+        myArrayStack.push(4);
+
+        myArrayStack.pop();
+        myArrayStack.pop();
+        myArrayStack.pop();
+        myArrayStack.pop();
+
     }
 }
