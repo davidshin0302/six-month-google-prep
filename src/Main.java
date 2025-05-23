@@ -12,6 +12,7 @@ import searchAlgorithm.DepthFirstSearch;
 import sortAlgorithm.InsertionSort;
 import sortAlgorithm.QuickSort;
 import stackQueueAlgorithm.MyArrayStack;
+import stackQueueAlgorithm.MyLinkedListStack;
 
 import java.util.Arrays;
 
@@ -80,24 +81,37 @@ public class Main {
 //        head2.next.next = new ListNode(4);
 //        System.out.println(MergeTwoSortedLists.mergeList(head1, head2));
 
-        MyArrayStack myArrayStack = new MyArrayStack<>(3);
+//        MyArrayStack myArrayStack = new MyArrayStack<>(3);
+//
+//        myArrayStack.push(1);
+//        myArrayStack.push(2);
+//        myArrayStack.push(3);
+//        myArrayStack.push(4);
+//
+//        System.out.println("=========");
+//        System.out.println(myArrayStack.peek());
+//        System.out.println("=========");
+//
+//        myArrayStack.pop();
+//        myArrayStack.pop();
+//        myArrayStack.pop();
+//        myArrayStack.pop();
+//
+//        System.out.println(myArrayStack.isEmpty());
+//
+//        System.out.println(myArrayStack.size());
 
-        myArrayStack.push(1);
-        myArrayStack.push(2);
-        myArrayStack.push(3);
-        myArrayStack.push(4);
+        MyLinkedListStack myLinkedListStack = new MyLinkedListStack<>();
 
-        System.out.println("=========");
-        System.out.println(myArrayStack.peek());
-        System.out.println("=========");
+        myLinkedListStack.push(1);
+        myLinkedListStack.push(2);
+        myLinkedListStack.push(3);
 
-        myArrayStack.pop();
-        myArrayStack.pop();
-        myArrayStack.pop();
-        myArrayStack.pop();
+        myLinkedListStack.pop();
+        myLinkedListStack.pop();
 
-        System.out.println(myArrayStack.isEmpty());
-
-        System.out.println(myArrayStack.size());
+        System.out.println(myLinkedListStack.isEmpty());
+        System.out.println(myLinkedListStack.peek());
+        System.out.println(myLinkedListStack.size());
     }
 }
