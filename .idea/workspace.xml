@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="Working on implementing basic array stack.">
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="Working on implementing basic array stack ver2.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stackQueueAlgorithm/MyArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackQueueAlgorithm/MyArrayStack.java" afterDir="false" />
@@ -35,12 +35,12 @@
     &quot;assignee&quot;: &quot;davidshin0302&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/davidshin0302/six-month-google-prep.git",
-    "accountId": "bdd7e44f-bf72-431a-9cae-6d9b0b79bb19"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/davidshin0302/six-month-google-prep.git&quot;,
+    &quot;accountId&quot;: &quot;bdd7e44f-bf72-431a-9cae-6d9b0b79bb19&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -251,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747773217586</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Working on implementing basic array stack ver2.">
+      <option name="closed" value="true" />
+      <created>1747845578987</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1747845578987</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -276,7 +284,8 @@
     <MESSAGE value="Solved find the middle of the linked list in java." />
     <MESSAGE value="Solved find the merge two sorted lists in java." />
     <MESSAGE value="Working on implementing basic array stack." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on implementing basic array stack." />
+    <MESSAGE value="Working on implementing basic array stack ver2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on implementing basic array stack ver2." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -285,6 +294,16 @@
           <url>file://$PROJECT_DIR$/src/leetCodeChallenges/linkedList/MiddleOfTheLinkedList.java</url>
           <line>92</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stackQueueAlgorithm/MyArrayStack.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stackQueueAlgorithm/MyArrayStack.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

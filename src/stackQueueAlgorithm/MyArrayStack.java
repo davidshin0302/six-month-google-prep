@@ -26,7 +26,7 @@ public class MyArrayStack<E> {
         if (top < 0) {
             System.out.println("Currently List is empty");
             return null;
-        }else{
+        } else {
             E temp = data[top];
             data[top] = null;
             top--;
@@ -36,11 +36,15 @@ public class MyArrayStack<E> {
     }
 
     public E peek() {
-        return null;
+        return data[top];
     }
 
     public boolean isEmpty() {
-        return false;
+        boolean isEmpty = false;
+        if (top < 0) {
+            isEmpty = true;
+        }
+        return isEmpty;
     }
 
     public int size() {

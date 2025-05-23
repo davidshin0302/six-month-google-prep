@@ -87,10 +87,16 @@ public class Main {
         myArrayStack.push(3);
         myArrayStack.push(4);
 
+        System.out.println("=========");
+        System.out.println(myArrayStack.peek());
+        System.out.println("=========");
+
         myArrayStack.pop();
         myArrayStack.pop();
         myArrayStack.pop();
         myArrayStack.pop();
+
+        System.out.println(myArrayStack.isEmpty());
 
     }
 }
