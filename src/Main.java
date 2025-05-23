@@ -98,5 +98,6 @@ public class Main {
 
         System.out.println(myArrayStack.isEmpty());
 
+        System.out.println(myArrayStack.size());
     }
 }

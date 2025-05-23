@@ -1,6 +1,7 @@
 package stackQueueAlgorithm;
 
 import java.util.ArrayList;
+import java.util.NoSuchElementException;
 
 public class MyArrayStack<E> {
     private E[] data;
@@ -36,7 +37,11 @@ public class MyArrayStack<E> {
     }
 
     public E peek() {
-        return data[top];
+        if (top < 0) {
+            throw new NoSuchElementException("Stack is Empty");
+        } else {
+            return data[top];
+        }
     }
 
     public boolean isEmpty() {
@@ -48,6 +53,7 @@ public class MyArrayStack<E> {
     }
 
     public int size() {
-        return 0;
+        int output = top + 1;
+        return output;
     }
 }
