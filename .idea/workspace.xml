@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="working on implementing MyLInkedLIstQueue">
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="implemented on implementing MyLInkedLIstQueue">
+      <change afterPath="$PROJECT_DIR$/src/trees/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stackQueueAlgorithm/MyLinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackQueueAlgorithm/MyLinkedListQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,11 +298,18 @@
       <option name="project" value="LOCAL" />
       <updated>1748368304761</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="implemented on implementing MyLInkedLIstQueue">
+      <option name="closed" value="true" />
+      <created>1748371898025</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1748371898025</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="practicing merge sort algorithm." />
     <MESSAGE value="practicing quick sort algorithm." />
     <MESSAGE value="Moved Classes to Sort dir" />
     <MESSAGE value="practicing binarySearch algorithm." />
@@ -328,7 +334,8 @@
     <MESSAGE value="Completed on implementing Linked list Array." />
     <MESSAGE value="Completed on implementing circular based array queue." />
     <MESSAGE value="working on implementing MyLInkedLIstQueue" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on implementing MyLInkedLIstQueue" />
+    <MESSAGE value="implemented on implementing MyLInkedLIstQueue" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented on implementing MyLInkedLIstQueue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
