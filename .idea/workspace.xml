@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="implemented on implementing MyLInkedLIstQueue">
-      <change afterPath="$PROJECT_DIR$/src/trees/TreeNode.java" afterDir="false" />
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="working to DSA binary tree lab.">
+      <change afterPath="$PROJECT_DIR$/src/trees/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -306,11 +306,18 @@
       <option name="project" value="LOCAL" />
       <updated>1748371898025</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="working to DSA binary tree lab.">
+      <option name="closed" value="true" />
+      <created>1748374392159</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1748374392159</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="practicing quick sort algorithm." />
     <MESSAGE value="Moved Classes to Sort dir" />
     <MESSAGE value="practicing binarySearch algorithm." />
     <MESSAGE value="practicing breadth-first-search algorithm." />
@@ -335,7 +342,8 @@
     <MESSAGE value="Completed on implementing circular based array queue." />
     <MESSAGE value="working on implementing MyLInkedLIstQueue" />
     <MESSAGE value="implemented on implementing MyLInkedLIstQueue" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented on implementing MyLInkedLIstQueue" />
+    <MESSAGE value="working to DSA binary tree lab." />
+    <option name="LAST_COMMIT_MESSAGE" value="working to DSA binary tree lab." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
