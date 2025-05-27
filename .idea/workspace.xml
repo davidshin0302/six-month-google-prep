@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="Completed on implementing Linked list Array.">
-      <change afterPath="$PROJECT_DIR$/src/stackQueueAlgorithm/MyCircularArrayQueue.java" afterDir="false" />
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="Completed on implementing circular based array queue.">
+      <change afterPath="$PROJECT_DIR$/src/stackQueueAlgorithm/MyLinkedListQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,17 +48,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/david/IdeaProjects"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/david/IdeaProjects&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -283,11 +282,18 @@
       <option name="project" value="LOCAL" />
       <updated>1748026828924</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Completed on implementing circular based array queue.">
+      <option name="closed" value="true" />
+      <created>1748029806703</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1748029806703</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit." />
     <MESSAGE value="first commit and praticing insertion sort." />
     <MESSAGE value="practicing merge sort algorithm." />
     <MESSAGE value="practicing quick sort algorithm." />
@@ -312,7 +318,8 @@
     <MESSAGE value="Working on implementing basic array stack ver3." />
     <MESSAGE value="Completed on implementing basic array stack." />
     <MESSAGE value="Completed on implementing Linked list Array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed on implementing Linked list Array." />
+    <MESSAGE value="Completed on implementing circular based array queue." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed on implementing circular based array queue." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
