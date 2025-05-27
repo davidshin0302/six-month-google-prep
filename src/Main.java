@@ -13,6 +13,7 @@ import sortAlgorithm.InsertionSort;
 import sortAlgorithm.QuickSort;
 import stackQueueAlgorithm.MyArrayStack;
 import stackQueueAlgorithm.MyCircularArrayQueue;
+import stackQueueAlgorithm.MyLinkedListQueue;
 import stackQueueAlgorithm.MyLinkedListStack;
 
 import java.util.Arrays;
@@ -115,23 +116,34 @@ public class Main {
 //        System.out.println(myLinkedListStack.peek());
 //        System.out.println(myLinkedListStack.size());
 
-        MyCircularArrayQueue myCircularArrayQueue = new MyCircularArrayQueue<>(5);
-        myCircularArrayQueue.offer("A");
-        myCircularArrayQueue.offer("B");
-        myCircularArrayQueue.offer("C");
-        myCircularArrayQueue.offer("D");
-        myCircularArrayQueue.offer("E");
+//        MyCircularArrayQueue myCircularArrayQueue = new MyCircularArrayQueue<>(5);
+//        myCircularArrayQueue.offer("A");
+//        myCircularArrayQueue.offer("B");
+//        myCircularArrayQueue.offer("C");
+//        myCircularArrayQueue.offer("D");
+//        myCircularArrayQueue.offer("E");
+//
+//        myCircularArrayQueue.poll();
+//        myCircularArrayQueue.poll();
+//        myCircularArrayQueue.poll();
+//        myCircularArrayQueue.poll();
+//        myCircularArrayQueue.poll();
+//
+//        System.out.println(myCircularArrayQueue.isEmpty());
+//        System.out.println(myCircularArrayQueue.size());
+//        System.out.println(myCircularArrayQueue.isFull());
+//
+//        myCircularArrayQueue.peek();
 
-        myCircularArrayQueue.poll();
-        myCircularArrayQueue.poll();
-        myCircularArrayQueue.poll();
-        myCircularArrayQueue.poll();
-        myCircularArrayQueue.poll();
+        MyLinkedListQueue myLinkedListQueue = new MyLinkedListQueue<>();
+        myLinkedListQueue.offer('A');
+        myLinkedListQueue.offer('B');
+        myLinkedListQueue.offer('C');
 
-        System.out.println(myCircularArrayQueue.isEmpty());
-        System.out.println(myCircularArrayQueue.size());
-        System.out.println(myCircularArrayQueue.isFull());
+        myLinkedListQueue.poll();
 
-        myCircularArrayQueue.peek();
+        System.out.println(myLinkedListQueue.peek());
+        System.out.println(myLinkedListQueue.isEmpty());
+        System.out.println(myLinkedListQueue.size());
     }
 }

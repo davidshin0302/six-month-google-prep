@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="Completed on implementing circular based array queue.">
-      <change afterPath="$PROJECT_DIR$/src/stackQueueAlgorithm/MyLinkedListQueue.java" afterDir="false" />
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="working on implementing MyLInkedLIstQueue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stackQueueAlgorithm/MyLinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackQueueAlgorithm/MyLinkedListQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +49,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/david/IdeaProjects&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/david/IdeaProjects"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -290,11 +291,18 @@
       <option name="project" value="LOCAL" />
       <updated>1748029806703</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="working on implementing MyLInkedLIstQueue">
+      <option name="closed" value="true" />
+      <created>1748368304761</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1748368304761</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit and praticing insertion sort." />
     <MESSAGE value="practicing merge sort algorithm." />
     <MESSAGE value="practicing quick sort algorithm." />
     <MESSAGE value="Moved Classes to Sort dir" />
@@ -319,7 +327,8 @@
     <MESSAGE value="Completed on implementing basic array stack." />
     <MESSAGE value="Completed on implementing Linked list Array." />
     <MESSAGE value="Completed on implementing circular based array queue." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed on implementing circular based array queue." />
+    <MESSAGE value="working on implementing MyLInkedLIstQueue" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on implementing MyLInkedLIstQueue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -334,6 +343,11 @@
           <line>48</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stackQueueAlgorithm/MyLinkedListQueue.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -341,6 +355,7 @@
         <watch expression="l1.next" />
         <watch expression="l2.next" language="JAVA" />
         <watch expression="this.head" language="JAVA" />
+        <watch expression="temp" />
       </configuration>
     </watches-manager>
   </component>
