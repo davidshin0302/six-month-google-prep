@@ -162,7 +162,7 @@ public class Main {
  TreeNode<String> nodeD = new TreeNode<>("D");
  TreeNode<String> nodeE = new TreeNode<>("E");
 
-// root.left = nodeB;
+ root.left = nodeB;
  root.right = nodeC;
  nodeB.left = nodeD;
  nodeB.right = nodeE;
@@ -172,7 +172,7 @@ public class Main {
 
 // Then call:
  myTree.inOrderTraversal(); // Should print D B E A C
- myTree.preOrderTraversal(); // Should print A B D E C
- myTree.postOrderTraversal(); // Should print D E B C A
+// myTree.preOrderTraversal(); // Should print A B D E C
+// myTree.postOrderTraversal(); // Should print D E B C A
     }
 }

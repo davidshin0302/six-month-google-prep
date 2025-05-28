@@ -2,7 +2,7 @@ package trees;
 
 public class BinaryTree<E> {
 
-    TreeNode<E> root; // The root node of our binary tree
+    public TreeNode<E> root; // The root node of our binary tree
 
     // Constructor
     public BinaryTree() {
@@ -20,15 +20,26 @@ public class BinaryTree<E> {
     }
 
     private void inOrderTraversal(TreeNode<E> node) {
+        if (node == null) {
+            return;
+        }
         // Recursive logic for in-order traversal
+        inOrderTraversal(node.left);
+        System.out.println(node.data);
+        inOrderTraversal(node.right);
     }
 
     public void preOrderTraversal() {
         // Call a private helper method
+        preOrderTraversal(root);
     }
 
     private void preOrderTraversal(TreeNode<E> node) {
         // Recursive logic for pre-order traversal
+        if(node == null){
+            return;
+        }
+        preOrderTraversal();
     }
 
     public void postOrderTraversal() {
