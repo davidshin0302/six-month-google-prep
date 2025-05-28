@@ -171,8 +171,8 @@ public class Main {
  myTree.root = root; // Manually set the root for now
 
 // Then call:
- myTree.inOrderTraversal(); // Should print D B E A C
+// myTree.inOrderTraversal(); // Should print D B E A C
 // myTree.preOrderTraversal(); // Should print A B D E C
-// myTree.postOrderTraversal(); // Should print D E B C A
+ myTree.postOrderTraversal(); // Should print D E B C A
     }
 }
