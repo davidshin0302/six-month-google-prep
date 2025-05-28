@@ -15,6 +15,8 @@ import stackQueueAlgorithm.MyArrayStack;
 import stackQueueAlgorithm.MyCircularArrayQueue;
 import stackQueueAlgorithm.MyLinkedListQueue;
 import stackQueueAlgorithm.MyLinkedListStack;
+import trees.BinaryTree;
+import trees.TreeNode;
 
 import java.util.Arrays;
 
@@ -135,15 +137,42 @@ public class Main {
 //
 //        myCircularArrayQueue.peek();
 
-        MyLinkedListQueue myLinkedListQueue = new MyLinkedListQueue<>();
-        myLinkedListQueue.offer('A');
-        myLinkedListQueue.offer('B');
-        myLinkedListQueue.offer('C');
+//        MyLinkedListQueue myLinkedListQueue = new MyLinkedListQueue<>();
+//        myLinkedListQueue.offer('A');
+//        myLinkedListQueue.offer('B');
+//        myLinkedListQueue.offer('C');
+//
+//        myLinkedListQueue.poll();
+//
+//        System.out.println(myLinkedListQueue.peek());
+//        System.out.println(myLinkedListQueue.isEmpty());
+//        System.out.println(myLinkedListQueue.size());
 
-        myLinkedListQueue.poll();
+        // Example for testing later
+//      A
+//     / \
+//    B   C
+//   / \
+//  D   E
 
-        System.out.println(myLinkedListQueue.peek());
-        System.out.println(myLinkedListQueue.isEmpty());
-        System.out.println(myLinkedListQueue.size());
+// You'd create:
+ TreeNode<String> root = new TreeNode<>("A");
+ TreeNode<String> nodeB = new TreeNode<>("B");
+ TreeNode<String> nodeC = new TreeNode<>("C");
+ TreeNode<String> nodeD = new TreeNode<>("D");
+ TreeNode<String> nodeE = new TreeNode<>("E");
+
+// root.left = nodeB;
+ root.right = nodeC;
+ nodeB.left = nodeD;
+ nodeB.right = nodeE;
+
+ BinaryTree<String> myTree = new BinaryTree<>();
+ myTree.root = root; // Manually set the root for now
+
+// Then call:
+ myTree.inOrderTraversal(); // Should print D B E A C
+ myTree.preOrderTraversal(); // Should print A B D E C
+ myTree.postOrderTraversal(); // Should print D E B C A
     }
 }

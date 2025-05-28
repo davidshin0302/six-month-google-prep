@@ -1,9 +1,9 @@
 package trees;
 
 public class TreeNode<E> {
-    E data;
-    TreeNode<E> left;
-    TreeNode<E> right;
+    public E data;
+    public TreeNode<E> left;
+    public TreeNode<E> right;
 
     public TreeNode(E data) {
         this.data = data;
