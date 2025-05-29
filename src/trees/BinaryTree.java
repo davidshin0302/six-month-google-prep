@@ -85,5 +85,18 @@ public class BinaryTree<E> {
 
         Queue<TreeNode<E>> myQueue = new LinkedList<>();
 
+        myQueue.offer(root);
+
+        while(!myQueue.isEmpty()){
+            TreeNode<E> current = myQueue.poll();
+
+            if(current.left != null){
+                myQueue.offer(current.left);
+            }
+            if(current.right != null){
+                myQueue.offer(current.right);
+            }
+            System.out.println(current.data);
+        }
     }
 }

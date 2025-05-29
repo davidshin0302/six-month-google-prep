@@ -1,24 +1,8 @@
-import leetCodeChallenges.arrays.CapturesforRook;
-import leetCodeChallenges.arrays.FormableWordsFinder;
-import leetCodeChallenges.arrays.GreatestCommonDivisor;
-import leetCodeChallenges.arrays.KthMissingPositiveNumber;
-import leetCodeChallenges.linkedList.ListNode;
-import leetCodeChallenges.linkedList.MergeTwoSortedLists;
-import leetCodeChallenges.linkedList.MiddleOfTheLinkedList;
-import leetCodeChallenges.linkedList.RemoveDuplicatesSortedList;
-import searchAlgorithm.BinarySearch;
 import searchAlgorithm.BreadthFirstSearch;
 import searchAlgorithm.DepthFirstSearch;
 import sortAlgorithm.InsertionSort;
-import sortAlgorithm.QuickSort;
-import stackQueueAlgorithm.MyArrayStack;
-import stackQueueAlgorithm.MyCircularArrayQueue;
-import stackQueueAlgorithm.MyLinkedListQueue;
-import stackQueueAlgorithm.MyLinkedListStack;
 import trees.BinaryTree;
 import trees.TreeNode;
-
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -156,23 +140,24 @@ public class Main {
 //  D   E
 
 // You'd create:
- TreeNode<String> root = new TreeNode<>("A");
- TreeNode<String> nodeB = new TreeNode<>("B");
- TreeNode<String> nodeC = new TreeNode<>("C");
- TreeNode<String> nodeD = new TreeNode<>("D");
- TreeNode<String> nodeE = new TreeNode<>("E");
+        TreeNode<String> root = new TreeNode<>("A");
+        TreeNode<String> nodeB = new TreeNode<>("B");
+        TreeNode<String> nodeC = new TreeNode<>("C");
+        TreeNode<String> nodeD = new TreeNode<>("D");
+        TreeNode<String> nodeE = new TreeNode<>("E");
 
- root.left = nodeB;
- root.right = nodeC;
- nodeB.left = nodeD;
- nodeB.right = nodeE;
+        root.left = nodeB;
+        root.right = nodeC;
+        nodeB.left = nodeD;
+        nodeB.right = nodeE;
 
- BinaryTree<String> myTree = new BinaryTree<>();
- myTree.root = root; // Manually set the root for now
+        BinaryTree<String> myTree = new BinaryTree<>();
+        myTree.root = root; // Manually set the root for now
 
 // Then call:
 // myTree.inOrderTraversal(); // Should print D B E A C
 // myTree.preOrderTraversal(); // Should print A B D E C
- myTree.postOrderTraversal(); // Should print D E B C A
+// myTree.postOrderTraversal(); // Should print D E B C A
+        myTree.levelOrderTraversal();
     }
 }
