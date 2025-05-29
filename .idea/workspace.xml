@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="working to implement breath first search in binary search tree.">
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="implemented breath first search in binary search tree.">
+      <change afterPath="$PROJECT_DIR$/src/trees/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trees/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,11 +346,18 @@
       <option name="project" value="LOCAL" />
       <updated>1748461473110</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="implemented breath first search in binary search tree.">
+      <option name="closed" value="true" />
+      <created>1748529616256</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1748529616256</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="practiced depth first search algo." />
     <MESSAGE value="Practicing leetcode challenge. Easy Level/Arrays." />
     <MESSAGE value="dummy commit" />
     <MESSAGE value="Working on GCD leetcode problem." />
@@ -376,7 +382,8 @@
     <MESSAGE value="implemented inOrderTraversal method." />
     <MESSAGE value="implemented binary tree serach with depth first search approach." />
     <MESSAGE value="working to implement breath first search in binary search tree." />
-    <option name="LAST_COMMIT_MESSAGE" value="working to implement breath first search in binary search tree." />
+    <MESSAGE value="implemented breath first search in binary search tree." />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented breath first search in binary search tree." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
