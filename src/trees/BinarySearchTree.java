@@ -53,7 +53,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
     }
 
     public void delete(E element) {
-
+        this.root = delete(root, element);
     }
 
     private TreeNode<E> delete(TreeNode<E> current, E element) {
@@ -64,23 +64,31 @@ public class BinarySearchTree<E extends Comparable<E>> {
         int cmp = element.compareTo(current.data);
 
         if (cmp < 0) {
-            delete(current.left, element);
+            current.left = delete(current.left, element);
         } else if (cmp > 0) {
             current.right = delete(current.right, element);
         } else {
-            current.right = delete(current.right, element);
-        }
-
-        if (cmp == 0) {
             if (current.left == null && current.right == null) {
                 return null;
-            }
-            if (current.left == null && current.right != null) {
+            } else if (current.left != null && current.right == null) {
                 return current.left;
-            }
-            if (current.right == null && current.left != null) {
+            } else if (current.right != null && current.left == null) {
                 return current.right;
+            } else {
+                TreeNode<E> successor = findMin(current.right);
+                current.data = successor.data;
             }
-
         }
+        return current;
     }
+
+    private TreeNode<E> findMin(TreeNode<E> node) {
+        if (node == null) {
+            return null;
+        }
+        while (node.left != null) {
+            node = node.left;
+        }
+        return node;
+    }
+}
