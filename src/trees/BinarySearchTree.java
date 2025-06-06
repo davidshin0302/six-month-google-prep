@@ -77,7 +77,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
             } else {
                 TreeNode<E> successor = findMin(current.right);
                 current.data = successor.data;
-                current.right = delete(current.right, successor.data);
+
+                current.right = delete(current, successor.data);
             }
         }
         return current;
@@ -85,11 +86,13 @@ public class BinarySearchTree<E extends Comparable<E>> {
 
     private TreeNode<E> findMin(TreeNode<E> node) {
         if (node == null) {
-            return null;
+            return node;
         }
-        while (node.left != null) {
+
+        while (node != null) {
             node = node.left;
         }
         return node;
     }
+
 }

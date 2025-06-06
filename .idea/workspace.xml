@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="trying to understand the recursion and logic behind delete method.">
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="Working to understand the logic behind delete method.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/trees/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/BinarySearchTree.java" afterDir="false" />
     </list>
@@ -370,11 +370,18 @@
       <option name="project" value="LOCAL" />
       <updated>1748620389310</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Working to understand the logic behind delete method.">
+      <option name="closed" value="true" />
+      <created>1748965279555</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1748965279555</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Working on GCD leetcode problem." />
     <MESSAGE value="Solving Formable workds finder." />
     <MESSAGE value="Solving CapturesForRook challenge." />
     <MESSAGE value="Trying debugging the output." />
@@ -399,7 +406,8 @@
     <MESSAGE value="implemented breath first search in binary search tree." />
     <MESSAGE value="working on implementing delete method on binary search tree." />
     <MESSAGE value="trying to understand the recursion and logic behind delete method." />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to understand the recursion and logic behind delete method." />
+    <MESSAGE value="Working to understand the logic behind delete method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working to understand the logic behind delete method." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
