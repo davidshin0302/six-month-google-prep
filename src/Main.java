@@ -1,3 +1,4 @@
+import leetCodeChallenges.BinaryTree.BinaryTreePaths;
 import leetCodeChallenges.BinaryTree.BinaryTreeTraversal;
 import leetCodeChallenges.BinaryTree.BinaryTreeZigZag;
 import leetCodeChallenges.BinaryTree.StackTreeNode;
@@ -167,17 +168,24 @@ public class Main {
 //        StackTreeNode right = new StackTreeNode(20, node1, node2);
 //        StackTreeNode root = new StackTreeNode(3, left, right);
 
-        StackTreeNode node1 = new StackTreeNode(4);
-        StackTreeNode node2 = new StackTreeNode(5);
-        StackTreeNode left = new StackTreeNode(2, node1, node2);
-        StackTreeNode right = new StackTreeNode(3);
+//        StackTreeNode node1 = new StackTreeNode(4);
+//        StackTreeNode node2 = new StackTreeNode(5);
+//        StackTreeNode left = new StackTreeNode(2, node1, node2);
+//        StackTreeNode right = new StackTreeNode(3);
+//        StackTreeNode root = new StackTreeNode(1, left, right);
+//
+//        BinaryTreeTraversal binaryTreeTraversal = new BinaryTreeTraversal();
+//        BinaryTreeZigZag binaryTreeZigZag = new BinaryTreeZigZag();
+//
+//        System.out.println(binaryTreeTraversal.levelOrder(root));
+//        System.out.println(binaryTreeZigZag.zigzagLevelOrder(root));
+
+        StackTreeNode node1 = new StackTreeNode(5);
+        StackTreeNode left =  new StackTreeNode(2, node1,null);
+        StackTreeNode right = new StackTreeNode(3, null, null);
         StackTreeNode root = new StackTreeNode(1, left, right);
 
-        BinaryTreeTraversal binaryTreeTraversal = new BinaryTreeTraversal();
-        BinaryTreeZigZag binaryTreeZigZag = new BinaryTreeZigZag();
-
-        System.out.println(binaryTreeTraversal.levelOrder(root));
-        System.out.println(binaryTreeZigZag.zigzagLevelOrder(root));
-
+        BinaryTreePaths binaryTreePaths = new BinaryTreePaths();
+        System.out.println(binaryTreePaths.binaryTreePaths(root));
     }
 }
