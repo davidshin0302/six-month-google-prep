@@ -1,3 +1,5 @@
+import leetCodeChallenges.stack.BinaryTreeTraversal;
+import leetCodeChallenges.stack.StackTreeNode;
 import searchAlgorithm.BreadthFirstSearch;
 import searchAlgorithm.DepthFirstSearch;
 import sortAlgorithm.InsertionSort;
@@ -140,24 +142,33 @@ public class Main {
 //  D   E
 
 // You'd create:
-        TreeNode<String> root = new TreeNode<>("A");
-        TreeNode<String> nodeB = new TreeNode<>("B");
-        TreeNode<String> nodeC = new TreeNode<>("C");
-        TreeNode<String> nodeD = new TreeNode<>("D");
-        TreeNode<String> nodeE = new TreeNode<>("E");
-
-        root.left = nodeB;
-        root.right = nodeC;
-        nodeB.left = nodeD;
-        nodeB.right = nodeE;
-
-        BinaryTree<String> myTree = new BinaryTree<>();
-        myTree.root = root; // Manually set the root for now
+//        TreeNode<String> root = new TreeNode<>("A");
+//        TreeNode<String> nodeB = new TreeNode<>("B");
+//        TreeNode<String> nodeC = new TreeNode<>("C");
+//        TreeNode<String> nodeD = new TreeNode<>("D");
+//        TreeNode<String> nodeE = new TreeNode<>("E");
+//
+//        root.left = nodeB;
+//        root.right = nodeC;
+//        nodeB.left = nodeD;
+//        nodeB.right = nodeE;
+//
+//        BinaryTree<String> myTree = new BinaryTree<>();
+//        myTree.root = root; // Manually set the root for now
 
 // Then call:
 // myTree.inOrderTraversal(); // Should print D B E A C
 // myTree.preOrderTraversal(); // Should print A B D E C
 // myTree.postOrderTraversal(); // Should print D E B C A
-        myTree.levelOrderTraversal();
+//        myTree.levelOrderTraversal();
+
+        StackTreeNode left = new StackTreeNode(9);
+        StackTreeNode node1 = new StackTreeNode(15);
+        StackTreeNode node2 = new StackTreeNode(7);
+        StackTreeNode right = new StackTreeNode(20, node1, node2);
+        StackTreeNode root = new StackTreeNode(3, left, right);
+
+        BinaryTreeTraversal binaryTreeTraversal = new BinaryTreeTraversal();
+        System.out.println(binaryTreeTraversal.levelOrder(root));
     }
 }

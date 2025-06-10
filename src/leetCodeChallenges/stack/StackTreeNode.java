@@ -10,11 +10,11 @@ public class StackTreeNode {
     StackTreeNode() {
     }
 
-    StackTreeNode(int val) {
+    public StackTreeNode(int val) {
         this.val = val;
     }
 
-    StackTreeNode(int val, StackTreeNode left, StackTreeNode right) {
+    public StackTreeNode(int val, StackTreeNode left, StackTreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
