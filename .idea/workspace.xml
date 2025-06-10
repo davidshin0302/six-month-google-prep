@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="working on solving binary Tree traversal challenge.">
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="solved binaryTreeTraversal challenge.">
+      <change afterPath="$PROJECT_DIR$/src/leetCodeChallenges/stack/BinaryTreeZigZag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCodeChallenges/stack/BinaryTreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeChallenges/stack/BinaryTreeTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCodeChallenges/stack/StackTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeChallenges/stack/StackTreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -396,12 +394,18 @@
       <option name="project" value="LOCAL" />
       <updated>1749224682975</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="solved binaryTreeTraversal challenge.">
+      <option name="closed" value="true" />
+      <created>1749566174608</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1749566174608</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Trying debugging the output." />
-    <MESSAGE value="Solved Captures For Rook Challenge." />
     <MESSAGE value="Solved Remove Duplicate Sorted List challenge." />
     <MESSAGE value="Solved find the middle of the linked list in java." />
     <MESSAGE value="Solved find the merge two sorted lists in java." />
@@ -425,7 +429,9 @@
     <MESSAGE value="Working to understand the logic behind delete method." />
     <MESSAGE value="completed studying binarySearchTree algo." />
     <MESSAGE value="working on solving binary Tree traversal challenge." />
-    <option name="LAST_COMMIT_MESSAGE" value="working on solving binary Tree traversal challenge." />
+    <MESSAGE value="working on solving binary Tree traversal challenge try-2." />
+    <MESSAGE value="solved binaryTreeTraversal challenge." />
+    <option name="LAST_COMMIT_MESSAGE" value="solved binaryTreeTraversal challenge." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -447,7 +453,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetCodeChallenges/stack/BinaryTreeTraversal.java</url>
-          <line>25</line>
+          <line>35</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
