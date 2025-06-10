@@ -1,4 +1,5 @@
 import leetCodeChallenges.stack.BinaryTreeTraversal;
+import leetCodeChallenges.stack.BinaryTreeZigZag;
 import leetCodeChallenges.stack.StackTreeNode;
 import searchAlgorithm.BreadthFirstSearch;
 import searchAlgorithm.DepthFirstSearch;
@@ -162,13 +163,23 @@ public class Main {
 // myTree.postOrderTraversal(); // Should print D E B C A
 //        myTree.levelOrderTraversal();
 
-        StackTreeNode left = new StackTreeNode(9);
-        StackTreeNode node1 = new StackTreeNode(15);
-        StackTreeNode node2 = new StackTreeNode(7);
-        StackTreeNode right = new StackTreeNode(20, node1, node2);
-        StackTreeNode root = new StackTreeNode(3, left, right);
+//        StackTreeNode left = new StackTreeNode(9);
+//        StackTreeNode node1 = new StackTreeNode(15);
+//        StackTreeNode node2 = new StackTreeNode(7);
+//        StackTreeNode right = new StackTreeNode(20, node1, node2);
+//        StackTreeNode root = new StackTreeNode(3, left, right);
+
+        StackTreeNode node1 = new StackTreeNode(4);
+        StackTreeNode node2 = new StackTreeNode(5);
+        StackTreeNode left = new StackTreeNode(2, node1, node2);
+        StackTreeNode right = new StackTreeNode(3);
+        StackTreeNode root = new StackTreeNode(1, left, right);
 
         BinaryTreeTraversal binaryTreeTraversal = new BinaryTreeTraversal();
+        BinaryTreeZigZag binaryTreeZigZag = new BinaryTreeZigZag();
+
         System.out.println(binaryTreeTraversal.levelOrder(root));
+        System.out.println(binaryTreeZigZag.zigzagLevelOrder(root));
+
     }
 }
