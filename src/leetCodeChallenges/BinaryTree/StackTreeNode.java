@@ -1,4 +1,4 @@
-package leetCodeChallenges.stack;
+package leetCodeChallenges.BinaryTree;
 
 
 //Definition for a binary tree node.

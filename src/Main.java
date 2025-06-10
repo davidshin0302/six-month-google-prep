@@ -1,11 +1,9 @@
-import leetCodeChallenges.stack.BinaryTreeTraversal;
-import leetCodeChallenges.stack.BinaryTreeZigZag;
-import leetCodeChallenges.stack.StackTreeNode;
+import leetCodeChallenges.BinaryTree.BinaryTreeTraversal;
+import leetCodeChallenges.BinaryTree.BinaryTreeZigZag;
+import leetCodeChallenges.BinaryTree.StackTreeNode;
 import searchAlgorithm.BreadthFirstSearch;
 import searchAlgorithm.DepthFirstSearch;
 import sortAlgorithm.InsertionSort;
-import trees.BinaryTree;
-import trees.TreeNode;
 
 public class Main {
     public static void main(String[] args) {
@@ -154,7 +152,7 @@ public class Main {
 //        nodeB.left = nodeD;
 //        nodeB.right = nodeE;
 //
-//        BinaryTree<String> myTree = new BinaryTree<>();
+//        leetCodeChallenges.BinaryTree<String> myTree = new leetCodeChallenges.BinaryTree<>();
 //        myTree.root = root; // Manually set the root for now
 
 // Then call:
