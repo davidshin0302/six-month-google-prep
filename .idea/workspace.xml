@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="working to solve BinaryTreeZigZag challenge.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="Solved BinaryTreeZigZag challenge.">
       <change beforePath="$PROJECT_DIR$/src/leetCodeChallenges/stack/BinaryTreeZigZag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeChallenges/stack/BinaryTreeZigZag.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -411,11 +409,18 @@
       <option name="project" value="LOCAL" />
       <updated>1749566849525</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Solved BinaryTreeZigZag challenge.">
+      <option name="closed" value="true" />
+      <created>1749572855018</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1749572855018</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Solved find the middle of the linked list in java." />
     <MESSAGE value="Solved find the merge two sorted lists in java." />
     <MESSAGE value="Working on implementing basic array stack." />
     <MESSAGE value="Working on implementing basic array stack ver2." />
@@ -440,7 +445,8 @@
     <MESSAGE value="working on solving binary Tree traversal challenge try-2." />
     <MESSAGE value="solved binaryTreeTraversal challenge." />
     <MESSAGE value="working to solve BinaryTreeZigZag challenge." />
-    <option name="LAST_COMMIT_MESSAGE" value="working to solve BinaryTreeZigZag challenge." />
+    <MESSAGE value="Solved BinaryTreeZigZag challenge." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved BinaryTreeZigZag challenge." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
