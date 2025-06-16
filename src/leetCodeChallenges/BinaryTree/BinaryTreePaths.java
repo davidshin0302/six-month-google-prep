@@ -9,52 +9,46 @@ import java.util.List;
 public class BinaryTreePaths {
     public List<String> binaryTreePaths(StackTreeNode root) {
         List<String> resultPaths = new ArrayList<>();
-
-        if (root == null) {
+        if (root == null) { // Good practice to handle initial null root
             return resultPaths;
         }
-
-        dfs(root, new StringBuilder(), resultPaths);
-
+        btp(root, new StringBuilder(), resultPaths);
         return resultPaths;
     }
 
-    public void dfs(StackTreeNode currentNode, StringBuilder currentPath, List<String> resultPaths) {
-        if (currentNode == null) {
+    public void btp(StackTreeNode currentNode, StringBuilder currentPaths, List<String> resultPaths){
+        // Base Case 1: If the node is null, simply return.
+        if(currentNode == null){
             return;
         }
 
-        // Capture the path length *before* appending the current node's value.
-        // This is the point to which we'll revert (backtrack) later.
-        int currentPathLenBeforeAppend = currentPath.length();
+        // Bookmark the current length of the StringBuilder *before* adding anything for this node.
+        // This 'originalLength' is where we will revert to during backtracking for THIS call.
+        int originalLength = currentPaths.length(); // Renamed for clarity
 
-        // Append current node's value, adding "->" if it's not the very first node.
-        if (currentPath.length() > 0) { // If path is not empty, means it's not the root's first value
-            currentPath.append("->");
+        // Always append the current node's value.
+        currentPaths.append(currentNode.val);
+
+        // Check for Base Case 2: If the current node is a leaf (no children).
+        if(currentNode.left == null && currentNode.right == null){
+            // If it's a leaf, this is a complete root-to-leaf path.
+            resultPaths.add(currentPaths.toString());
+            // IMPORTANT: DO NOT 'return;' here.
+            // We want the function to continue to the backtracking step below.
+        } else {
+            // If it's NOT a leaf, it means we will continue exploring deeper.
+            // So, append "->" to separate this node's value from its children's.
+            currentPaths.append("->");
+
+            // Make recursive calls for children.
+            btp(currentNode.left, currentPaths, resultPaths);
+            btp(currentNode.right, currentPaths, resultPaths);
         }
-        currentPath.append(currentNode.val);
-
-        // BASE CASE 1: If it's a leaf node, we've found a complete path.
-        if (currentNode.left == null && currentNode.right == null) {
-            resultPaths.add(currentPath.toString());
-            // NO BACKTRACKING HERE YET! We're about to return from this call.
-            // The backtracking for this level will happen *after* this return,
-            // when the calling function (its parent) cleans up.
-            return;
-        }
-
-        // RECURSIVE STEP: If not a leaf, continue exploring children.
-        // Make recursive calls for left and right children.
-        dfs(currentNode.left, currentPath, resultPaths);
-        dfs(currentNode.right, currentPath, resultPaths);
 
         // BACKTRACKING:
-        // After both left and right recursive calls have completed (or returned),
-        // we need to remove the part of the path added by the current node
-        // (i.e., its value and the preceding "->").
-        // This restores `currentPath` to the state it was in *before* this node was processed,
-        // allowing its parent to explore other branches or finish its own processing.
-        currentPath.setLength(currentPathLenBeforeAppend);
+        // This line is guaranteed to execute for EVERY 'btp' call before it returns.
+        // It restores 'currentPaths' to the exact state it was in when this 'btp' call began,
+        // effectively "undoing" the appending of 'currentNode.val' (and the "->" if added).
+        currentPaths.setLength(originalLength);
     }
-
 }
