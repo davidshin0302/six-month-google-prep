@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="working to solve BinaryTreePaths challenge ver2.">
+    <list default="true" id="871d8c21-fd87-4dfd-9b1b-864d05bffc08" name="Changes" comment="working to solve maxium depth binary tree.">
+      <change afterPath="$PROJECT_DIR$/src/leetCodeChallenges/BinaryTree/MaxiumDepthBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCodeChallenges/BinaryTree/BinaryTreePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeChallenges/BinaryTree/BinaryTreePaths.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,18 +48,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/david/IdeaProjects&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/david/IdeaProjects",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -455,7 +455,6 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed on implementing basic array stack." />
     <MESSAGE value="Completed on implementing Linked list Array." />
     <MESSAGE value="Completed on implementing circular based array queue." />
     <MESSAGE value="working on implementing MyLInkedLIstQueue" />
@@ -480,7 +479,8 @@
     <MESSAGE value="moved directory." />
     <MESSAGE value="working to solve BinaryTreePaths challenge." />
     <MESSAGE value="working to solve BinaryTreePaths challenge ver2." />
-    <option name="LAST_COMMIT_MESSAGE" value="working to solve BinaryTreePaths challenge ver2." />
+    <MESSAGE value="working to solve maxium depth binary tree." />
+    <option name="LAST_COMMIT_MESSAGE" value="working to solve maxium depth binary tree." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -499,6 +499,11 @@
           <url>file://$PROJECT_DIR$/src/stackQueueAlgorithm/MyLinkedListQueue.java</url>
           <line>41</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeChallenges/BinaryTree/BinaryTreePaths.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
