@@ -1,7 +1,4 @@
-import leetCodeChallenges.BinaryTree.BinaryTreePaths;
-import leetCodeChallenges.BinaryTree.BinaryTreeTraversal;
-import leetCodeChallenges.BinaryTree.BinaryTreeZigZag;
-import leetCodeChallenges.BinaryTree.StackTreeNode;
+import leetCodeChallenges.BinaryTree.*;
 import searchAlgorithm.BreadthFirstSearch;
 import searchAlgorithm.DepthFirstSearch;
 import sortAlgorithm.InsertionSort;
@@ -187,5 +184,8 @@ public class Main {
 
         BinaryTreePaths binaryTreePaths = new BinaryTreePaths();
         System.out.println(binaryTreePaths.binaryTreePaths(root));
+
+        MaximumDepthBinaryTree maximumDepthBinaryTree = new MaximumDepthBinaryTree();
+        System.out.println(maximumDepthBinaryTree.maximumDepthBinaryTree(root));
     }
 }
